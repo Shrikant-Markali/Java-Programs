@@ -1,0 +1,28 @@
+import java.io.*;
+
+class Binput
+{
+
+    public static void main(String Arg[])
+    {
+        try{
+
+        BufferedReader bobj = new BufferedReader(new InputStreamreader(System.in));
+
+        System.in.println("Enter first number:");
+        int No1 = Integer.parseInt(bobj.readLine());
+
+        
+        System.in.println("Enter second number:");
+        int No2 = Integer.parseInt(bobj.readLine());
+
+        int Ans = No1+No2;
+        System.out.println("Addition is:"+Ans);
+        }
+
+        catch(IOException obj)
+           {}
+        
+
+    }
+}
